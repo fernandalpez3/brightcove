@@ -1,0 +1,40 @@
+
+/* The following style rules
+ * is just for this JSFiddle
+ * and not necessary to the 
+ * player
+ */
+body {
+  font-family: sans-serif;
+  padding: 2em;
+}
+
+/* style rules essential to the player below */
+
+#audioOnly .vjs-control-bar {
+  transform: none;
+  background-color: transparent;
+}
+
+
+/* round the corners of the player */
+
+#audioOnly {
+  border-radius: 1em;
+  width: 480px;
+  height: 80px;
+}
+
+
+/* remove the background from the big play button */
+
+.video-js.vjs-mouse .vjs-big-play-button {
+  background: none;
+}
+
+
+/* round the corners of the dock */
+
+#audioOnly .vjs-dock-text {
+  border-radius: 1em 1em 0 0;
+}
